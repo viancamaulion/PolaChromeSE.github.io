@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Polaroid;
+    src: url(font/FF\ Real\ Head\ Pro/);
+  }
+
+
+body{
+    height: 100%;
+    font-family: font-face="Polaroid";
+    overflow-x: hidden;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+}
+
+.container{
+    color: black;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    width: 700px;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.container img{
+    position:relative;
+    height: 180px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.features{
+  gap: 20px;
+}
+
+.card{
+    background-color: white;
+    color:black;
+    height: 300px;
+    width: 320px;
+    border-radius: 10px;
+    position: relative;
+
+    text-align: center;
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card .icon{
+    background-color: gray;
+    height: 80px;
+    width: 85px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.card h5{
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.comparison-chart h5{
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.comparison-chart p{
+    font-size:14px
+}
+
+

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Polaroid;
+    src: url(font/FF\ Real\ Head\ Pro/);
+  }
+
+
+body{
+    height: 100vh;
+    font-family: font-face="Polaroid";
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bg-img{
+    background-image: url(img/testimonial-bg.png);
+    background-size: cover;
+    min-height:100vh;
+    position:relative;
+    background-repeat: no-repeat;
+    color:white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.2)
+}
+
+.heading{
+  margin-top: 30px;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: 900;
+  text-align: left;
+  margin-top: 10%;
+}
+
+.testimonials{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+  width: 1500px;
+}
+
+.card{
+  height: 220px;
+  max-width: 450px;
+  position: relative;
+  border-radius: 25px;
+  margin-bottom: 5px;
+  
+  font-size: 14px;
+  color: white;
+  padding: 20px;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.2);
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  text-align: justify;
+}
+
+
+.row{
+  row-gap: 20px;
+}
+
+
